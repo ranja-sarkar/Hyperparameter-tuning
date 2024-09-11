@@ -11,7 +11,7 @@ These are discussed in details in **Chapter 9** of my book.
 
 Buy at Amazon: https://a.co/d/iRN1WK5
 
-The very premise of machine learning relies on a form of function optimization so inputs csn be almost accurately mapped to expected output. 
+The very premise of machine learning relies on a form of function optimization so inputs can be most accurately mapped to expected output. 
 Bayesian optimization is best when the objective function is complex. This process keeps updating the hyperparameter config. until an optimal point (global minimum) is reached in the search space.
 
 <img width="209" alt="1" src="https://github.com/user-attachments/assets/88535300-9262-4298-b93a-d27e7bba2752">
