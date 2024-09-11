@@ -1,5 +1,7 @@
 #author: ranja.sarkar@gmail.com
 #CLASSIFICATION task
+#Learn about parameter grid: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.ParameterGrid.html#sklearn.model_selection.ParameterGrid
+#https://scikit-learn.org/stable/modules/grid_search.html#grid-search
 
 import pandas as pd
 from scipy.stats import loguniform
@@ -21,6 +23,7 @@ space = dict()
 space['solver'] = ['newton-cg', 'lbfgs', 'liblinear']
 space['penalty'] = ['none', 'l1', 'l2', 'elasticnet']
 space['C'] = [1e-5, 1e-4, 1e-3, 1e-2, 1e-1, 1, 10, 100]
+
 search = GridSearchCV(model, space, scoring = 'accuracy', n_jobs = -1, cv = cv)
 result = search.fit(X, y)
 
