@@ -1,4 +1,5 @@
 #author: ranja.sarkar@gmail.com
+#CLASSIFICATION task
 
 import pandas as pd
 from scipy.stats import loguniform
@@ -6,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import RepeatedStratifiedKFold
 from sklearn.model_selection import RandomizedSearchCV
 
-#dataset
+#dataset for classification
 dataframe = pd.read_csv('sonar.csv')
 data = dataframe.values
 X, y = data[:, :-1], data[:, -1]
