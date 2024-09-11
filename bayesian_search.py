@@ -1,5 +1,7 @@
 #author: ranja.sarkar@gmail.com
 #CLASSIFICATION task
+#Learn about tuning a scikit-learn estimator with skopt: https://scikit-optimize.github.io/stable/auto_examples/hyperparameter-optimization.html
+#Bayesian optimization using Gaussian process (gp): https://scikit-optimize.github.io/stable/modules/generated/skopt.gp_minimize.html#skopt.gp_minimize
 
 import  numpy as np
 from sklearn.datasets import make_blobs
@@ -30,4 +32,5 @@ result = gp_minimize(evaluate_model, search_space)
 
 print('Best Accuracy: %.3f' % (1.0 - result.fun))
 print('Best Parameters: n_neighbors=%d, p=%d' % (result.x[0], result.x[1]))
+
 
