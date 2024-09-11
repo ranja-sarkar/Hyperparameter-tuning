@@ -2,7 +2,9 @@
 
 When it comes to minimizing costs in a business, what we need is an optimized model, so that the model is as effective as possible to achieve the business objective it has been built for.
 
-The main techniques of optimizing model hyper-parameters are **random search**, **grid search**, and **Bayesian search**.
+The main techniques of optimizing model hyper-parameters are **random search**, **grid search**, and **Bayesian search**. 
+![1](https://github.com/user-attachments/assets/b6f9b380-02e9-4cac-8834-d7e697c4dc5d)
+
 These are discussed in details in **Chapter 9** of my book.
 
 <img width="179" alt="0" src="https://github.com/user-attachments/assets/2303322f-e4e3-4636-b533-57b38a7ca9ed">
@@ -10,6 +12,5 @@ These are discussed in details in **Chapter 9** of my book.
 Buy at Amazon: https://a.co/d/iRN1WK5
 
 
-Note: The 'sonar' dataset is used for classification task.
+**Note**: The 'sonar' dataset is used for classification task. The 'auto-insurance' dataset is used for regression task.
 
-The 'auto-insurance' dataset is used for regression task.
