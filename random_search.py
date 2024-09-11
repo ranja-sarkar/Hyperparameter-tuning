@@ -1,5 +1,8 @@
 #author: ranja.sarkar@gmail.com
 #CLASSIFICATION task
+#https://scikit-learn.org/stable/modules/grid_search.html
+#Learn about parameter grid: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.ParameterGrid.html#sklearn.model_selection.ParameterGrid
+
 
 import pandas as pd
 from scipy.stats import loguniform
