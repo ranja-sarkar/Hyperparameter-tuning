@@ -13,8 +13,10 @@ Buy at Amazon: https://a.co/d/iRN1WK5
 
 The very premise of machine learning relies on a form of function optimization so inputs csn be almost accurately mapped to expected output. 
 Bayesian optimization is best when the objective function is complex. This process keeps updating the hyperparameter config. until an optimal point (global minimum) is reached in the search space.
-![2](https://github.com/user-attachments/assets/900944e1-fa2f-49ce-8c15-bef4bd8e2c60)
 
+<img width="209" alt="1" src="https://github.com/user-attachments/assets/88535300-9262-4298-b93a-d27e7bba2752">
+
+<img width="62" alt="3" src="https://github.com/user-attachments/assets/cb96346e-1362-4c36-a7de-2372f95496ec">
 
 **Note**: The 'sonar' dataset is used for classification task. The 'auto-insurance' dataset is used for regression task.
 
